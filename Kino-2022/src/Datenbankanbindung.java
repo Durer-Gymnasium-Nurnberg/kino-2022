@@ -14,6 +14,7 @@ public class Datenbankanbindung {
 			Class.forName("com.mysql.cj.jdbc.Driver");		
 			//conn = DriverManager.getConnection("jdbc:mysql://172.28.40.54/kino?user=sc&password=dg");	
 			conn = DriverManager.getConnection("jdbc:mysql://192.168.200.2/kino2?user=sc&password=dg");	
+			//conn = DriverManager.getConnection("jdbc:mysql://85.13.144.17/d03d56ab?user=d03d56ab&password=2BcyR5v32BjhzV");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
